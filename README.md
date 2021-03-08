@@ -1,5 +1,5 @@
 # NAFF_UV
-The NAFF_UV code is an implementation of the Jacques Laskar's NAFF algorithm.
+The NAFF_UV code is an implementation of Jacques Laskar's NAFF algorithm.
 
 This new version (NAFF_UV) can be seen as an updated and enhanced version of Jacques Laskar's original NAFF that was written in Fortran 77 and of a later version used in Bmad (https://github.com/MichaelEhrlichman/FortNAFF) and written in Fortran 90.
 
