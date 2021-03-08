@@ -1,0 +1,49 @@
+# All the empty or the commented lines has to be started with #
+#
+# The input parameters for the NAFF algorithm are the following and the order should stay as it is.
+#
+#######################################################################################################
+#######################################################################################################
+#
+#
+#
+# string: The file name of the data - 1D (Nx1) for real data and 2D (Nx2) for complex data .
+input_data_complex.txt
+#
+# string: The type of the input signal : -> 'c' if it is complex and 'r' if it is real. With complex input signal the output frequencies are located in the range [0-1). With real input signal the output frequencies are located in the range [0-0.5) .
+c
+#
+# string: Specify if the full signal will be used <full> or a part of it <part> .
+full
+#
+# integer: The row number of the first data. If full is used this variable is ignored .
+1
+#
+# integer: The number of the dada that will be analized. If full is used this variable is ignored .
+473
+#
+# integer: The step that will be used to read the data .
+1
+#
+# real: The sampling frequency : -> 1/(sample spacing) . If the step above is not equal to 1 so as to further increase the sample spacing, the sampling frequency must be <sampling frequency>=<sampling frequency>/<step> .
+1.0
+#
+# integer: The number of the frequencies needed .
+9
+#
+# integer: Obtain the zero frequency (dc signal) 1->Yes and 0->No .
+1
+#
+# string: The type of the window that is used for a better determination of the frequency.
+# 'han_i' for Hanning and i an integer (e.g. 3), 'hft' for flat top, 'gau_r' for gaussian with r a real <= 0.5 (e.g. 0.47569) and 'rec' for rectangular window (no window) .
+han_1
+#
+# string: The type of the window that is used for a better determination of the amplitude.
+# 'han_i' for Hanning and i an integer (e.g. 3), 'hft' for flat top, 'gau_r' for gaussian with r a real <= 0.5 (e.g. 0.47569) and 'rec' for rectangular window (no window) .
+hft
+#
+# integer: Specify if the modified Gram - Schmidt orthonormalization will be used. 1->Yes and 0->No .
+0
+#
+# string: The file name that contains the results .
+freqiencies_and_amplitudes.txt
