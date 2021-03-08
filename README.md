@@ -14,7 +14,7 @@ gfortran -o3 -I./ -o abc kind_accuracy_module.f08 numbers_constants_module.f08 b
  scl enable devtoolset-7 bash
 
 ### References:
-k. Skoufaris, "Non-linear dynamics modeling in accelerators with the use of symplectic integrators".
+K. Skoufaris, "Non-linear dynamics modeling in accelerators with the use of symplectic integrators".
 
 J. Laskar, "The chaotic motion of the solar system: A numerical estimate of the size of the chaotic zones".
 
